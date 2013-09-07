@@ -1,0 +1,36 @@
+.outer {
+	width: 300px;
+	border: 1px solid red;
+	overflow: hidden;
+	*position: relative;
+}
+
+.inner {
+	float: left;
+position: relative;
+left: 50%;
+max-width: 300px;
+}
+
+img {
+	display: block;
+position: relative;
+max-width: 80%;
+margin: 0 auto;
+left: -50%;
+padding: 10% 0;
+z-index: -10;
+}
+
+.gouzi {
+	background: url("./icons-18-white.png") no-repeat scroll -252px -1px rgba(0, 0, 255, 0.8);
+border: 2px solid white;
+border-radius: 18px 18px 18px 18px;
+height: 18px;
+// position: relative;
+top: 376px;
+width: 18px;
+float: right;
+margin-top: -54px;
+margin-right: 10%;
+}
